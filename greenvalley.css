@@ -1,0 +1,39 @@
+
+body{
+margin-right:30px;
+margin-top:5px;
+background-color: rgb(226, 196, 255);
+background-image: url();
+background-repeat:no repeat;
+background-attachment:fixed;
+}
+
+h1{
+text-align: center;
+padding: 16px;
+height: 1500px;
+color: #f2f2f2;
+position: fixed;
+}
+
+.navbar{
+overflow: hidden;
+background-color: #312;
+position: fixed;
+top: 90;
+width: 90%;
+margin-left:30px;
+}
+
+.navbar a{
+color: #f2f2f2;
+font-size: 27px;
+text-align: left;
+padding: 15px 20px;
+}
+
+#container{
+width:100%;
+height:100%;
+overflow:hidden;
+}
