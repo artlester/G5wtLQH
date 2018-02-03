@@ -1,0 +1,76 @@
+body {
+    
+}
+div.container {
+	background-color: #7FFFD4;	
+	margin-top: 70px;
+	margin-bottom: 50px;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+div.navbar {	
+	background-color: #7FFFD4;
+	text-align: left;
+	border: 1px solid green;
+	padding: 1px;
+	margin-top: 10px;
+}
+div.layer1 {
+	color: green;	
+}
+img.logo {
+	padding: 10px;
+	height: 100px;
+	width: 100px;
+}
+a.link {
+	background-image: url("artist-frame.png");	
+    background-repeat: no-repeat;
+    background-size: 80px 100px;
+	border: 1px green;
+	padding: 10px;
+}
+.p1 {	
+	margin-right: 10px;
+	margin-left: 10px;
+}
+h2 {
+	background-image: url("paper.jpg");
+	text-align: center;
+	border: 1px solid green;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 40;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+h3 { 		
+	margin-left: 40px;
+}
+h4 {	
+	border: 1px solid green;
+	padding: 10px;
+}
+h1 {
+	padding: 10px;
+	font-size: 50;
+	border: 1px;
+	margin-top: 50px;	
+	margin-left: 40px;	
+	margin-right: 40px;
+}
+table.table1 {
+	border: 1px black;	
+}
+th.head {
+}
+div.footer {
+	font-size: 70;
+	text-align: center;	
+}
+h4.footer {	
+	font-size: 70;	
+	margin-left: 40px;	
+	text-align:center;
+	margin-top: 50px;
+}
