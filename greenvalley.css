@@ -1,72 +1,100 @@
 body{
-margin-right:30px;
-margin-top:5px;
-background-color: rgb(226, 196, 255);
-background-image: url();
-background-repeat:no repeat;
-background-attachment:fixed;
+	margin-left:12%;
+	margin-right:20%;
+	background-image: url(./Imagessssss/IMG_0220.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+}
+
+#header{
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:30px;
+	margin-right:30px;
+	text-align:center;
+	font-size:120px;
+	font-family:Lobster;
+	color:rgba(255,250,205,0.8);
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgb(115,77,38);
 }
 
 h1{
-text-align: center;
-padding: 16px;
-height: 1500px;
-color: #f2f2f2;
-position: fixed;
+	padding: 16px;
+	height: 1500px;
+	color: #a05b86;
+	position: fixed;
+	font-size:50px;
 }
 
 .navbar{
-overflow: hidden;
-background-color: #312;
-position: fixed;
-top: 90;
-width: 90%;
-margin-left:30px;
+	margin-top:6%;
+	overflow: hidden;
+	background-color: #312;
+	position: fixed;
+	top: 90;
+	width: 70%;
+	margin-left:30px;
 }
 
 .navbar a{
-color: #f2f2f2;
-font-size: 27px;
-text-align: left;
-padding: 15px 20px;
+	color: #f2f2f2;
+	font-size: 27px;
+	text-align: left;
+	padding: 15px 20px;
 }
 
 #container{
-width:100%;
-height:100%;
-overflow:hidden;
+	width:100%;
+	height:100%;
+	overflow:hidden;
 }
 
 .fling-minislide {
-width:60%; 
-height:20%; 
-overflow:hidden; 
-position:relative; 
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	position:relative;
+}
+.fling-minislide img{
+	position:absolute;
+	animation:fling-minislide 20s infinite;
+	opacity:0;
+	width: 100%;
+	height: 100%;
 }
 
-.fling-minislide img{ 
-position:absolute; 
-animation:fling-minislide 20s infinite; 
-opacity:0; 
-width: 100%; 
-height: auto;}
-
 @keyframes fling-minislide {
-25%{opacity:1;} 
-40%{opacity:0;}} 
+	25%{opacity:1;}
+	40%{opacity:0;}
+} 
 
 .fling-minislide img:nth-child(4){
-animation-delay:0s;
+	animation-delay:0s;
 }
 
 .fling-minislide img:nth-child(3){
-animation-delay:5s;
+	animation-delay:5s;
 }
-
 .fling-minislide img:nth-child(2){
-animation-delay:10s;
+	animation-delay:10s;
+}
+.fling-minislide img:nth-child(1){
+	animation-delay:15s;
 }
 
-.fling-minislide img:nth-child(1){
-animation-delay:15s;
+.boxed{
+	background: rgba(243, 200, 200, 0.5);
+	color: black;
+	padding: 15px;
+	height: 100%;
+	width: 70%;
+	overflow: hidden;
+	border: 5px solid #ccc;
+	text-align: center;
+}
+
+.bullets{
+	text-align:left;
 }
