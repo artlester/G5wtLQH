@@ -23,6 +23,13 @@ img.logo {
 	margin-right: 10px;
 	margin-left: 10px;
 }
+img.logo1{
+	text-align: right;
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
 a.link {
     background-repeat: no-repeat;
     background-size: 80px 100px;
@@ -59,9 +66,12 @@ h1 {
 	margin-right: 40px;
 }
 table.table1 {
-	border: 1px black;	
+	border: 1px black;
+	table-layout: auto;
+    border-collapse: collapse;
 }
 th.head {
+	width: 100%;
 }
 div.footer {
 	font-size: 70;
@@ -72,4 +82,12 @@ div.footer {
 	font-size: 70;
 	text-align:center;
 	margin-top: 50px;	
+}
+img.logo2:hover{
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
 }
