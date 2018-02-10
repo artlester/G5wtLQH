@@ -1,8 +1,7 @@
 body {
     
 }
-div.container {
-	background-color: #7FFFD4;	
+div.container {	
 	margin-top: 70px;
 	margin-bottom: 50px;
 	margin-right: 60px;
@@ -19,12 +18,12 @@ div.layer1 {
 	color: green;	
 }
 img.logo {
-	padding: 10px;
 	height: 100px;
 	width: 100px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 a.link {
-	background-image: url("artist-frame.png");	
     background-repeat: no-repeat;
     background-size: 80px 100px;
 	border: 1px green;
@@ -39,8 +38,6 @@ h2 {
 	text-align: center;
 	border: 1px solid green;
 	padding: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
 	font-size: 40;
 	font-family: "Arial Black", Gadget, sans-serif;
 }
@@ -48,11 +45,13 @@ h3 {
 	margin-left: 40px;
 }
 h4 {	
+	background-color: #7FFFD4;
 	border: 1px solid green;
 	padding: 10px;
 }
 h1 {
 	padding: 10px;
+	text-align: center;
 	font-size: 50;
 	border: 1px;
 	margin-top: 50px;	
@@ -68,9 +67,9 @@ div.footer {
 	font-size: 70;
 	text-align: center;	
 }
-h4.footer {	
-	font-size: 70;	
-	margin-left: 40px;	
+div.footer {	
+	background-color: #00ffff;
+	font-size: 70;
 	text-align:center;
-	margin-top: 50px;
+	margin-top: 50px;	
 }
