@@ -1,0 +1,215 @@
+body {  
+	background:  url(bg.gif) no-repeat center center fixed; 
+  background-size: cover;
+	
+	
+ 
+}
+    
+}
+div.container {	
+	margin-top: 70px;
+	margin-bottom: 50px;
+	margin-right: 60px;
+	margin-left: 60px;
+	
+	
+
+}
+
+div.navbar {	
+	background-color: #00BFFF;
+	text-align: left;
+    font-family: "Lucida";
+    font-size: 30px;
+	border: 1px solid green;
+	padding: 1px;
+	margin-top: 10px;
+}
+div.layer1 {
+
+	color: green;	
+}
+img.logo {
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+
+}
+img.logo1{
+	text-align: right;
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+	;
+
+}
+img.logo2{
+	border: 5px solid skyblue;
+    border-radius: 4px;
+    padding: 1px;
+    width: 150px;
+}
+img.logo2:hover{
+
+    top:-25px;
+    left:-35px;
+    width:300px;
+    height:auto;
+    display:block;
+    z-index:999;
+
+   
+
+}
+a.link {
+    background-repeat: no-repeat;
+    background-size: 80px 100px;
+	border: 1px green;
+	padding: 10px;
+}
+.p1 {	
+     font-family: "Lucida Console";
+     font-size:50;
+	text-align: center;
+	padding:50px 80px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+h2 {
+
+	background: url('gv.jpg')center; 
+	background-size: cover;
+	height: 500px;
+	position:relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    text-align: center;
+    color:#FFFFFF;
+	border: 1px solid green;
+	padding: 10px;
+	font-size: 40px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+h3 { 
+
+	text-align: center;
+
+}
+h4 {	
+
+	color: 	#FFFFE0;
+     text-align:center;
+     vertical-align: middle;
+     font-size: 100px; 
+	
+}
+h1 {
+	padding: 10px;
+	text-align: center;
+	font-size: 50px;
+	border: 1px;
+	margin-top: 50px;	
+	margin-left: 40px;	
+	margin-right: 40px;
+}
+div.Lifestyle{
+	background: url('gv2.jpg')center; 
+	background-size: cover;
+	height: 500px;
+	position:relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+div.History{
+	background: url('gv3.jpg')center; 
+	background-size: cover;
+	height: 500px;
+	position:relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+div.IP{
+	background: url('gv4.jpg')center; 
+	background-size: cover;
+	height: 500px;
+	position:relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+div.languag{
+	background: url('gv5.jpg')center; 
+	background-size: cover;
+	height: 500px;
+	position:relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+div.Education{
+	background: url('gv3.jpg')center; 
+	background-size: cover;
+	height: 500px;
+	position:relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+table.table1 {
+	border: 0px black;
+	table-layout: auto;
+    border-collapse: collapse;
+}
+table.table2 {
+	border: none;
+	table-layout: auto;
+    border-collapse: collapse;
+}
+th.head {
+	width: 100%;
+}
+div.footer {
+	font-size: 30px;
+	text-align: center;	
+}
+div.footer {	
+	background-color: #00ffff;
+	font-size: 30px;
+	text-align:center;
+	margin-top: 50px;	
+}
+audio{
+	display:none;
+}
+
