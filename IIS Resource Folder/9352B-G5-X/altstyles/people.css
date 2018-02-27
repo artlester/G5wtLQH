@@ -1,0 +1,42 @@
+/*#people {
+	border: none;
+    position: absolute; 
+    visibility: visible; 
+    left: 30px;
+    right: 30px ; 
+    top: 400px;
+    margin-right:20%;
+    margin-left:20%;
+    border-radius: 25px;
+    background: #9966ff;
+    padding: 20px;
+    z-index: 1; 
+}*/
+
+#top img{
+    display: none;
+}
+
+#people{
+    top: 10%;
+    text-align: center;
+    background: #6699ff;
+    border: none;
+    visibility: visible;
+    display: block;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+#top{
+    display: none;
+}
+
+#gallery{
+    display: none;
+}

@@ -1,0 +1,22 @@
+#top img{
+    display: none;
+}
+
+#projects{
+	border: none;
+    position: absolute; 
+    visibility: visible; 
+    left: 0; 
+    top: 10%;
+    background: #6699ff;
+    padding: 20px;
+    z-index: 1; 
+}
+
+#top{
+    display: none;
+}
+
+#gallery{
+    display: none;
+}

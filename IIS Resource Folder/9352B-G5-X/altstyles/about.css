@@ -1,0 +1,27 @@
+#top img{
+    display: none;
+}
+
+#about{
+
+    top: 45%;
+	border: none;
+    position: absolute; 
+    visibility: visible; 
+    left: 0;
+    background: #6699ff;
+    padding: 20px;
+    z-index: 1; 
+}
+
+#about h1{
+    text-align: center;
+}
+
+#top{
+    display: none;
+}
+
+#gallery{
+    display: none;
+}
